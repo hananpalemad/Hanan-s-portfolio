@@ -1,12 +1,12 @@
 {
   "name": "alvalen-portfolio-website",
   "author": {
-    "name": "Alvalen Shafelbilyunazra",
+    "name": "Hanan pt",
     "email": "alvalen.shafel04@gmail.com",
-    "url": "https://alvalens.my.id"
+    "url": "https://Hanan.my.id"
   },
   "license": "GPL-3.0",
-  "copyright": "Copyright (C) 2025 Alvalen Shafelbilyunazra",
+  "copyright": "Copyright (C) 2025 hanan pt",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -28,12 +28,12 @@
     "eslint": "9.22.0",
     "eslint-config-next": "15.2.3",
     "framer-motion": "^12.5.0",
-    "next": "15.2.3",
+    "next": "^15.2.3",
     "nprogress": "^0.2.0",
     "postcss": "^8.5.3",
     "prop-types": "^15.8.1",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "sharp": "^0.33.5",
     "sitemap": "^8.0.0",
     "swr": "^2.3.3",

@@ -35,7 +35,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me1}
-									alt="Alvalens"
+									alt="Hanan"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -58,7 +58,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me2}
-									alt="Alvalens"
+									alt="Hanan"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -82,8 +82,8 @@ export default function About() {
 								}}
 								className="w-full h-full">
 								<Image
-									src={Me3}
-									alt="Alvalens"
+									src={Me2}
+									alt="Hanan"
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
@@ -108,38 +108,20 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Alvalen Shafelbilyunazra
+						Hanan PT
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						Hey there, I&rsquo;m Hanan PT, a
 						<span className="text-black font-medium">
 							{" "}
-							passionate Web Developer
-						</span>{" "}
-						with a growing expertise in
-						<span className="text-black font-medium">
-							{" "}
-							Artificial Intelligence.
-						</span>{" "}
-						Hailing from Pasuruan, East Java, Indonesia, I&rsquo;m currently
-						pursuing my degree in{" "}
-						<span className="text-black font-medium">
-							Computer Science
-						</span>{" "}
-						at{" "}
-						<span className="text-black font-medium">
-							Universitas Negeri Malang.
-						</span>{" "}
-						My work bridges modern web technologies and intelligent systems—from
-						building responsive, scalable websites to exploring generative AI
-						and LLM-based solutions. Beyond development, I stay curious about
-						design and emerging technologies. In today&rsquo;s ever-changing
-						digital landscape, I believe being a
-						<span className="text-black font-medium"> lifelong learner</span> is
-						essential. Let&rsquo;s connect and explore the evolving intersection
-						of web and AI together!
+							passionate Web Developer.
+						</span>
+						Dedicated and detail-oriented BCA student with a strong foundation in computer
+						 applications and modern technology. Skilled in front-end development, teaching,
+						  content writing, and language handling. Passionate about learning, building digital
+						   experiences, and staying updated with the latest tools and trends in web development
+						    and communication.
 					</p>
-					<Card />
 				</motion.div>
 			</div>
 		</>

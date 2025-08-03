@@ -7,10 +7,8 @@ import FixedButton from "@/components/FixedButton";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
-import Quote from "./components/quote/quote.jsx";
 import Skills from "./components/skills/skills.jsx";
-import Experience from "./components/experience.jsx";
-import Education from "./components/education.jsx";
+
 
 // images
 import Hero from "@/public/image/me2.jpg";
@@ -85,18 +83,6 @@ export default function Page() {
 				{/* skills */}
 				<Skills />
 				{/* end skills */}
-
-				{/* experience */}
-				<Experience />
-				{/* end experience */}
-
-				{/* Education */}
-				<Education />
-				{/* end Education */}
-
-				{/* Quote */}
-				<Quote />
-				{/* end Quote */}
 
 			</main>
 		</>

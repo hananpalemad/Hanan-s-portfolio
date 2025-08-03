@@ -66,4 +66,15 @@ module.exports = withBundleAnalyzer({
 				  }
 				: false,
 	},
+	 experimental: {
+    turbo: false, // Force Webpack
+  },
+   experimental: {
+    turbo: {
+      // Replace Webpack aliases with Turbopack equivalents
+      resolveAlias: {
+        '@components': './components',
+      },
+    },
+  },
 });
