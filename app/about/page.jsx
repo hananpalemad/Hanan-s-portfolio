@@ -11,7 +11,7 @@ import Skills from "./components/skills/skills.jsx";
 
 
 // images
-import Hero from "@/public/image/me2.jpg";
+import Hero from "@/public/image/hananog.jpg";
 
 import Hr from "@/components/Hr";
 import About from "./components/about/about.jsx";

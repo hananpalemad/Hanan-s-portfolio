@@ -1,9 +1,6 @@
 import Image from "next/image";
-import Card from "./spotify/card";
 import { motion } from "framer-motion";
-import Me1 from "@/public/image/me1.jpg";
-import Me2 from "@/public/image/me2.jpg";
-import Me3 from "@/public/image/me3.jpg";
+import Me1 from "@/public/image/hananog.jpg";
 import Hr from "@/components/Hr";
 
 function Title() {
@@ -23,8 +20,8 @@ export default function About() {
 			<Title />
 			<div className="relative mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
 				<div className="flex justify-center items-start flex-col mb-5 ">
-					<div className="images relative w-full  aspect-square">
-						<div className="absolute top-28 left-10 w-[50%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
+					<div className="images relative w-full aspect-square">
+						<div className="absolute top-28 left-10 w-[50%] aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
 							<motion.div
 								initial={{ opacity: 0, scale: 0.5, x: 100 }}
 								whileInView={{
@@ -36,13 +33,13 @@ export default function About() {
 								<Image
 									src={Me1}
 									alt="Hanan"
-									layout="fill"
-									objectFit="cover"
+									fill
+									style={{objectFit: "cover"}}
 									placeholder="blur"
 								/>
 							</motion.div>
 						</div>
-						<div className="absolute top-16 right-28 w-[30%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
+						<div className="absolute top-16 right-28 w-[30%] aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
 							<motion.div
 								initial={{
 									opacity: 0,
@@ -57,15 +54,15 @@ export default function About() {
 								transition={{ delay: 0.3 }}
 								className="w-full h-full">
 								<Image
-									src={Me2}
+									src={Me1}
 									alt="Hanan"
-									layout="fill"
-									objectFit="cover"
+									fill
+									style={{objectFit: "cover"}}
 									placeholder="blur"
 								/>
 							</motion.div>
 						</div>
-						<div className="absolute bottom-16 right-20 w-[40%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
+						<div className="absolute bottom-16 right-20 w-[40%] aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
 							<motion.div
 								initial={{
 									opacity: 0,
@@ -82,10 +79,10 @@ export default function About() {
 								}}
 								className="w-full h-full">
 								<Image
-									src={Me2}
+									src={Me1}
 									alt="Hanan"
-									layout="fill"
-									objectFit="cover"
+									fill
+									style={{objectFit: "cover"}}
 									placeholder="blur"
 								/>
 							</motion.div>
@@ -104,7 +101,6 @@ export default function About() {
 					}}
 					transition={{
 						delay: 0.5,
-
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
